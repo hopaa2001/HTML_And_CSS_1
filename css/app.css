@@ -47,6 +47,18 @@ body {
     }
 }
 
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #10cab7d7;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: var(--main-color);
+}
+
 /* End Global Rules */
 /* Start Special Heading  */
 .special-heading {
